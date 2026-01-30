@@ -47,6 +47,9 @@ instance/
 .DS_Store
 Thumbs.db
 
+# Node
+node_modules/
+
 # Temporary files
 tmp/
 temp/
