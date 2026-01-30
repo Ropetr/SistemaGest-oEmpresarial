@@ -1,0 +1,14 @@
+{
+  "name": "erp-basico",
+  "version": "1.0.0",
+  "description": "Sistema ERP Basico - Cloudflare Workers + D1",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:init": "wrangler d1 execute erp-basico --file=schema.sql --remote"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
