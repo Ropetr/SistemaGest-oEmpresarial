@@ -1,0 +1,11 @@
+name = "erp-basico"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+[assets]
+directory = "./public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "erp-basico"
+database_id = "7ed0f500-ce78-405a-af9d-3a1b1e6b11cd"
